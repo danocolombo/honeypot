@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-honeypot-dev-50058-authRole",
+      "UnauthRoleArn": "arn:aws:iam::226036691416:role/amplify-honeypot-dev-50058-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::226036691416:role/amplify-honeypot-dev-50058-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-honeypot-dev-50058-deployment",
+      "UnauthRoleName": "amplify-honeypot-dev-50058-unauthRole",
+      "StackName": "amplify-honeypot-dev-50058",
+      "StackId": "arn:aws:cloudformation:us-east-1:226036691416:stack/amplify-honeypot-dev-50058/5fbd8040-80ea-11ec-8004-125e98e8dfc1",
+      "AmplifyAppId": "d2k7s5cbmsca2s"
+    },
+    "categories": {
+      "function": {
+        "honeyPotClient001": {
+          "deploymentBucketName": "amplify-honeypot-dev-50058-deployment",
+          "s3Key": "amplify-builds/honeyPotClient001-4367497a3357384d4a7a-build.zip"
+        }
+      }
+    }
+  }
+}

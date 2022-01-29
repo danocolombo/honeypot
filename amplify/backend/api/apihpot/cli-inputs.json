@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/client/{code}": {
+      "name": "/client/{code}",
+      "lambdaFunction": "honeyPotClient001",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
