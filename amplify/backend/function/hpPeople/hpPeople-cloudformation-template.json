@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "honeyPotClient001",
+            "hpPeople",
             {
               "Fn::Join": [
                 "",
                 [
-                  "honeyPotClient001",
+                  "hpPeople",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "honeypotLambdaRolea4b0fd9b",
+            "honeypotLambdaRole3cff822b",
             {
               "Fn::Join": [
                 "",
                 [
-                  "honeypotLambdaRolea4b0fd9b",
+                  "honeypotLambdaRole3cff822b",
                   "-",
                   {
                     "Ref": "env"

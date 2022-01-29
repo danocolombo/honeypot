@@ -1,0 +1,19 @@
+{
+    "status": "200",
+    "statusCode": 200,
+    "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "X-Amzn-Trace-Id": "Root=1-61f5b096-d35c9e4f7609cbe9328fa088;Sampled=0"
+    },
+    "body": {
+        "_id": "6321ee73-3f5c-4fc2-a8e1-3a90b8a4b517",
+        "name": "Fortson Guru",
+        "email": "fortsonguru@gmail.com",
+        "phone": "+17066042494",
+        "defaultClient": "wbc",
+        "defaultClientId": "5ee16596c1583dee0d7a6cae",
+        "role": "undefined",
+        "status": "undefined"
+    }
+}

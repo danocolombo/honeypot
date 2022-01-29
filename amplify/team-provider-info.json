@@ -9,13 +9,37 @@
       "UnauthRoleName": "amplify-honeypot-dev-50058-unauthRole",
       "StackName": "amplify-honeypot-dev-50058",
       "StackId": "arn:aws:cloudformation:us-east-1:226036691416:stack/amplify-honeypot-dev-50058/5fbd8040-80ea-11ec-8004-125e98e8dfc1",
-      "AmplifyAppId": "d2k7s5cbmsca2s"
+      "AmplifyAppId": "d2k7s5cbmsca2s",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-honeypot-dev-50058-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
+      "auth": {
+        "undefined": {}
+      },
       "function": {
-        "honeyPotClient001": {
+        "hpClients": {
           "deploymentBucketName": "amplify-honeypot-dev-50058-deployment",
-          "s3Key": "amplify-builds/honeyPotClient001-4367497a3357384d4a7a-build.zip"
+          "s3Key": "amplify-builds/hpClients-3571496f377663703548-build.zip"
+        },
+        "hpGroups": {
+          "deploymentBucketName": "amplify-honeypot-dev-50058-deployment",
+          "s3Key": "amplify-builds/hpGroups-694b38563139646d4830-build.zip"
+        },
+        "hpMeetings": {
+          "deploymentBucketName": "amplify-honeypot-dev-50058-deployment",
+          "s3Key": "amplify-builds/hpMeetings-4c487333774361553049-build.zip"
+        },
+        "hpPeople": {
+          "deploymentBucketName": "amplify-honeypot-dev-50058-deployment",
+          "s3Key": "amplify-builds/hpPeople-74374137346c53566f65-build.zip"
+        },
+        "hpUsers": {
+          "deploymentBucketName": "amplify-honeypot-dev-50058-deployment",
+          "s3Key": "amplify-builds/hpUsers-6f702b63787a4e776a4d-build.zip"
+        },
+        "helloSample": {
+          "deploymentBucketName": "amplify-honeypot-dev-50058-deployment",
+          "s3Key": "amplify-builds/helloSample-72394d5771666b364a5a-build.zip"
         }
       }
     }
